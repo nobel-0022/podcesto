@@ -1,0 +1,609 @@
+
+@media(min-width:992px) 
+and (max-width:1199.99px){
+
+
+  .banner-left h1 {
+   
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .banner-left p{
+    padding-right: 0;
+  }  
+  .banner-features {
+    top: 56%;
+  }
+#podcast{
+  padding-top: 40px;
+  margin-top: 24px;
+}
+
+.podcast-item-body h5 {
+  font-size: 14px;
+}
+
+.podcast-header h2 {
+  font-size: 24px;
+  line-height: 36px;
+ 
+}
+.podcast-header p {
+  margin-top: 16px;
+}
+.podcast-item {
+ margin-top: 32px;
+}
+
+#service{
+  padding-bottom: 48px;
+}
+.service-left h4 {
+  font-size: 25px;
+  line-height: 36px;
+ 
+}
+.service-left p {
+  font-size: 14px;
+  line-height: 24px;
+ padding-right: 0;
+ 
+}
+
+
+#popular{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.popular-header h1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.nav-tabs-button {
+ 
+  flex-wrap: wrap;
+}
+
+.left button{
+  width: 141px;
+}
+.right buton{
+  width: 118px;
+}
+.nav-tabs-button .left button {
+  padding: 16px 31px;
+
+}
+.nav-tabs-button .left button,
+.nav-tabs-button .right button{
+  margin-top: 16px;
+}
+
+#plan {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.plan-header h2 {
+  
+  font-size: 24px;
+  line-height: 36px;
+
+}
+.pricing-box p{
+  padding: 0;
+}
+.pricing-box{
+  margin-bottom: 16px;
+}
+.price-plans {
+  margin-bottom: 24px;
+}
+.plan-header p {
+  padding: 0 ;
+}
+.pricing-box h4{
+  font-size: 30px;
+}
+
+#testimonial {
+  padding-top: 30px;
+ 
+}
+.testimonial-header h4 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.quotation::after {
+  width: 200px;
+}
+.reviewer .r-details h6 {
+  
+  font-size: 15px;
+ 
+}
+.testimonial-items{
+  margin-bottom: 24px;
+}
+
+footer{
+  margin-top: 80px;
+  padding-bottom: 32px;
+}
+.footer-lists{
+  margin-top: 32px;
+}
+.footer-left p{
+  padding-right: 0;
+}
+}
+
+
+@media(min-width:768px) and (max-width:991px){
+  .navbar-toggler {
+   
+    border: none;
+  }
+
+.navbar-toggler:focus {
+
+  box-shadow: none;
+
+}
+.banner-right {
+  width: 515px;
+  height: 380px;
+ margin-left: auto;
+}
+.banner-features{
+  top: 27%;
+  
+}
+.banner-left h1{
+  font-size: 29px;
+  line-height: 36px;
+  margin-top: 24px;
+}
+.banner-left p{
+  font-size: 13px;
+  line-height: 24px;
+  padding-right: 0;
+}
+.banner-button{
+ justify-content: center;
+}
+.number-users{
+  justify-content: center;
+}
+.number-users span strong{
+  font-size: 36px;
+}
+
+#podcast{
+  padding-top: 40px;
+  margin-top: 24px;
+}
+.podcast-item-body h5 {
+
+  font-size: 16px;
+}
+.podcast-header h2 {
+ 
+  font-size: 24px;
+  line-height: 36px;
+ 
+}
+.podcast-header p {
+  margin-top: 16px;
+}
+.podcast-item {
+ margin-top: 32px;
+}
+
+#service{
+  padding-bottom: 48px;
+}
+.service-left h4 {
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+}
+.service-left p {
+  font-size: 14px;
+  line-height: 24px;
+ padding-right: 0;
+ text-align: center;
+}
+.list-service{
+  display: flex;
+  justify-content: center;
+}
+
+.service-button{
+  text-align: center;
+}
+#popular{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.popular-header h1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.nav-tabs-button {
+ 
+  flex-wrap: wrap;
+}
+
+.left button{
+  width: 141px;
+}
+.right buton{
+  width: 118px;
+}
+.nav-tabs-button .left button {
+  padding: 16px 31px;
+
+}
+.nav-tabs-button .left button,
+.nav-tabs-button .right button{
+  margin-top: 16px;
+}
+
+#plan {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.plan-header h2 {
+  
+  font-size: 24px;
+  line-height: 36px;
+
+}
+
+.pricing-box{
+  margin-bottom: 16px;
+}
+.price-plans {
+  margin-bottom: 24px;
+}
+.plan-header p {
+  padding: 0 ;
+}
+
+.testimonial-header h4 {
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.quotation::after{
+  width: 253px;
+}
+
+.testimonial-items{
+  margin-bottom: 24px;
+}
+
+footer{
+  margin-top: 80px;
+  padding-bottom: 32px;
+}
+.footer-lists{
+  margin-top: 32px;
+}
+.footer-left p{
+  padding-right: 0;
+}
+}
+
+
+@media(min-width:576px) and (max-width:767px){
+  .navbar-toggler {
+    border: none;
+  }
+
+.navbar-toggler:focus {
+
+  box-shadow: none;
+
+}
+.banner-right {
+  width: 404px;
+  height: 344px;
+  margin-left: auto;
+}
+.banner-features {
+  top: 20%;
+  transform: scale(0.9);
+}
+.banner-left h1{
+  font-size: 29px;
+  line-height: 36px;
+  margin-top: 24px;
+}
+.banner-left p{
+  font-size: 13px;
+  line-height: 24px;
+  padding-right: 0;
+}
+.banner-button{
+ justify-content: center;
+}
+.number-users{
+  justify-content: center;
+}
+.number-users span strong{
+  font-size: 36px;
+}
+
+#podcast{
+  padding-top: 40px;
+  margin-top: 24px;
+}
+.podcast-item-body h5 {
+
+  font-size: 16px;
+}
+.podcast-header h2 {
+ 
+  font-size: 24px;
+  line-height: 36px;
+ 
+}
+.podcast-header p {
+  margin-top: 16px;
+}
+.podcast-item {
+ margin-top: 32px;
+}
+
+#service{
+  padding-bottom: 48px;
+}
+.service-left h4 {
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+}
+.service-left p {
+  font-size: 14px;
+  line-height: 24px;
+ padding-right: 0;
+ text-align: center;
+}
+.list-service{
+  display: flex;
+  justify-content: center;
+}
+
+.service-button{
+  text-align: center;
+}
+#popular{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.popular-header h1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.nav-tabs-button {
+ 
+  flex-wrap: wrap;
+}
+
+.left button{
+  width: 141px;
+}
+.right buton{
+  width: 118px;
+}
+.nav-tabs-button .left button {
+  padding: 16px 31px;
+
+}
+.nav-tabs-button .left button,
+.nav-tabs-button .right button{
+  margin-top: 16px;
+}
+
+#plan {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.plan-header h2 {
+  
+  font-size: 24px;
+  line-height: 36px;
+
+}
+.price-plans {
+  margin-bottom: 24px;
+}
+.plan-header p {
+  padding: 0 ;
+}
+
+.testimonial-header h4 {
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.quotation::after{
+  width: 253px;
+}
+
+.testimonial-items{
+  margin-bottom: 24px;
+}
+
+footer{
+  margin-top: 80px;
+  padding-bottom: 32px;
+}
+.footer-lists{
+  margin-top: 32px;
+}
+.footer-left p{
+  padding-right: 0;
+}
+}
+
+
+
+
+@media(max-width:575.99px){
+  .navbar-toggler {
+   
+    border: none;
+  }
+
+.navbar-toggler:focus {
+
+  box-shadow: none;
+
+}
+.banner-right{
+  width: 275px;
+  height: 256px;
+  margin-left: auto;
+}
+.banner-features{
+  top: 12%;
+  transform: scale(0.7);
+}
+.banner-left h1{
+  font-size: 29px;
+  line-height: 36px;
+  margin-top: 24px;
+}
+.banner-left p{
+  font-size: 13px;
+  line-height: 24px;
+  padding-right: 0;
+}
+.banner-button{
+ justify-content: center;
+}
+.number-users{
+  justify-content: center;
+}
+.number-users span strong{
+  font-size: 36px;
+}
+
+#podcast{
+  padding-top: 40px;
+  margin-top: 24px;
+}
+.podcast-header h2 {
+ 
+  font-size: 24px;
+  line-height: 36px;
+ 
+}
+.podcast-header p {
+  margin-top: 16px;
+}
+.podcast-item {
+ margin-top: 32px;
+}
+
+#service{
+  padding-bottom: 48px;
+}
+.service-left h4 {
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+}
+.service-left p {
+  font-size: 14px;
+  line-height: 24px;
+ padding-right: 0;
+ text-align: center;
+}
+.list-service{
+  display: flex;
+  justify-content: center;
+}
+
+.service-button{
+  text-align: center;
+}
+#popular{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.popular-header h1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.nav-tabs-button {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  flex-wrap: wrap;
+}
+
+.left button{
+  width: 141px;
+}
+.right buton{
+  width: 118px;
+}
+.nav-tabs-button .left button {
+  padding: 16px 31px;
+
+}
+.nav-tabs-button .left button,
+.nav-tabs-button .right button{
+  margin-top: 16px;
+}
+
+#plan {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.plan-header h2 {
+  
+  font-size: 24px;
+  line-height: 36px;
+
+}
+.price-plans {
+  margin-bottom: 24px;
+}
+.plan-header p {
+  padding: 0 ;
+}
+
+.testimonial-header h4 {
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.quotation::after{
+  width: 253px;
+}
+
+.testimonial-items{
+  margin-bottom: 24px;
+}
+
+footer{
+  margin-top: 80px;
+  padding-bottom: 32px;
+}
+.footer-lists{
+  margin-top: 32px;
+}
+.footer-left p{
+  padding-right: 0;
+}
+}

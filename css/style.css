@@ -1,0 +1,828 @@
+
+/* common Css Start */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+ul, ol{
+  list-style-type: none
+}
+h1,h2,h3,h4,h5,h6,p{
+  line-height: 0.8;
+  margin-bottom: 0;
+}
+
+/* font-family: "Commissioner", serif; */
+/* common Css End */
+
+    /* nav Start */
+   .navbar{
+    padding: 25px 0 ;
+   }
+
+  .nav-item{
+    padding: 0 24px;
+  }
+   .nav-link{
+    font-family: "Commissioner", serif;
+     color: #62636C;
+     text-transform: capitalize;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     transition: all linear .3s;
+     
+   }
+   .nav-link:hover{
+      color: #7678ED;
+   }
+
+   .navbar-button{
+    padding: 16px 32px;
+    background-color: #7678ED;
+    border: none;
+    color: #fff;
+    font-family: "Commissioner", serif;
+    font-weight: 500;
+    font-size: 14px;
+   }
+
+   .navbar-brand{
+    margin-right: 0;
+   }
+      /* nav end */
+
+
+         /* banner start*/
+
+#banner{
+margin-top: 50px;
+padding-bottom: 50px;
+}
+.banner-left h1{
+  color: #13132C;
+  font-family: "Commissioner", serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76px;
+}
+
+.banner-left p{
+  color: #898998;
+  font-family: "Commissioner", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-right: 107px;
+  margin-top: 16px;
+}
+.banner-button{
+  margin-top: 26px;
+  display: flex;
+  column-gap: 16px;
+}
+.banner-button button{
+  padding: 16px 32px;
+  background-color: #7678ED;
+  border: none;
+  color: #fff;
+  font-family: "Commissioner", serif;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 16px;
+  border: 1px solid #7678ED;
+  transition: all linear .3s;
+}
+
+.banner-button button:hover{
+  background-color: transparent;
+  border: 1px solid #7678ED;
+  color:#7678ED;
+}
+
+
+.number-users{
+  display: flex;
+  column-gap: 24px;
+  margin-top: 36px;
+}
+.number-users span{
+  color: #13132C;
+  font-family: "Commissioner", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.number-users span strong{
+    color: #F18701;
+    font-family: "Commissioner", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+
+.banner-right{
+  height: 520px;
+}
+.banner-right img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+.banner-features{
+  top: 40%;
+  left: -104px;
+}
+
+    /* banner end       */
+
+
+        /* Podcast start*/
+
+#Podcast{
+
+  background-color: #fafafa;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-top: 48px;
+}
+
+.podcast-header h2{
+  font-family: "Commissioner", serif;
+  font-size: 48px;
+  color: #13132C;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  text-transform: capitalize;
+}
+.podcast-header p{
+  font-family: "Commissioner", serif;
+  font-size: 14px;
+  color: #898998;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+ 
+}
+
+.podcast-section{
+  margin-top: 48px;
+}
+.podcast-item{
+  padding: 24px 35px;
+  box-shadow: 10px 32px 72px rgba(15, 13, 35, 0.1);
+  text-align: center;
+  background: #fff;
+}
+.podcast-item-body{
+  margin-top: 32px;
+}
+.podcast-item-body h5{
+  color: #13132C;
+  font-family: "Commissioner", serif;
+  font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.podcast-item-body p{
+  color: #898998;
+  font-family: "Commissioner", serif;
+  font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin-top: 16px;
+}
+
+ /* podcast end */
+
+  /* service start*/
+#service{
+  margin-top: 114px;
+}
+
+.service-left h4{
+  font-family: "Commissioner", serif;
+  color: #13132C;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  text-transform: capitalize;
+  padding-bottom: 16px;
+}
+.service-left p{
+  font-family: "Commissioner", serif;
+  color: #898998;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-right: 124px;
+  padding-bottom: 32px;
+}
+
+ul{
+  padding-left: 0;
+}
+
+.service-left li .service-checkbox{
+  background-color: #F18701;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 10px;
+
+}
+.service-left li{
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.service-left li span{
+ color: #13132C;
+ font-family: "Commissioner", serif;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+
+}
+.service-button button{
+  padding: 16px 32px;
+  background-color: #7678ED;
+  border: none;
+  color: #fff;
+  font-family: "Commissioner", serif;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all linear .4s;
+ 
+}
+
+
+.service-button button:hover{
+  padding: 16px 32px;
+  background-color: #6062c9;
+}
+
+.service-left img{
+  width: 100%;
+  height: 100%;
+}
+   /* service start*/
+
+         /* popular start*/
+#popular{
+  background-color: #fafafa;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+ .popular-header h1{
+  font-family: "Commissioner", serif;
+  font-size: 48px;
+  color: #13132C;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  text-transform: capitalize;
+        }
+.popular-header p{
+  font-family: "Commissioner",serif;
+  font-size: 14px;
+  color: #898998;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+  padding: 0 10px;
+         
+}
+
+.popular-tabs{
+  margin-top: 10px;
+}
+
+.nav-tabs-button{
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+}
+.nav-tabs-button button{
+  
+    padding: 16px 32px;
+    background-color: #FAFAFA;
+    border: none;
+    color: #898998;
+    font-family: "Commissioner", serif;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all linear .4s;
+    border: 1px solid #dddddd;
+    margin-top: 35px;
+  }
+  
+  
+  .nav-tabs-button button:hover{
+    padding: 16px 32px;
+    background-color: #6062c9;
+    color: #fff;
+  }
+.popular-item{
+  background-color: #fff;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.popular-img{
+  height: 234px;
+  overflow: hidden;
+}
+.popular-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.popular-item-content{
+  margin-top: 24px;
+}
+.left-content h6{
+  color: #13132C;
+  font-family: "Commissioner", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+
+}
+
+.nav-tabs-button{
+  margin-bottom: 48px;
+}
+
+.left-content ul{
+  color: #898998;
+  font-family: "Commissioner", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  column-gap: 16px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.left-content ul li:last-child{
+  position: relative;
+}
+
+.left-content ul li:last-child::after{
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: -6px;
+  transform: translate(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #6062c9;
+
+}
+
+.playbutton{
+  display: flex;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #F2F2F2;
+  color: #6062c9;
+  font-size: 12px;
+  border-radius: 50%;
+}
+
+.tabs-more-button button{
+  padding: 16px 32px;
+    background-color: #6062c9;
+    border: none;
+    color: #fff;
+    font-family: "Commissioner", serif;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all linear .4s;
+    border: 1px solid #6062c9;
+    margin-top: 35px;
+    margin-top: 37px;
+}
+
+.tabs-more-button button:hover{
+background-color: transparent;
+color: #6062c9;
+
+}
+        /* popular end*/
+
+  /* paln start*/
+#plan{
+padding-top: 114px;
+padding-bottom: 114px;
+}
+
+.plan-header h2{
+  font-family: "Commissioner", serif;
+  font-size: 48px;
+  color: #13132C;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  text-transform: capitalize;
+}
+.plan-header p{
+  font-family: "Commissioner", serif;
+  font-size: 14px;
+  color: #898998;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+  padding: 0 119px;
+ 
+}
+
+.plan-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 24px;
+  
+}
+
+.price-plans{
+  margin-top: 48px;
+}
+.plan-button button{
+  padding: 16px 32px;
+    background-color: #6062c9;
+    border: none;
+    color: #fff;
+    font-family: "Commissioner", serif;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all linear .4s;
+    border: 1px solid #6062c9;
+    margin-top: 35px;
+    margin-top: 37px;
+    
+}
+
+.plan-button button:hover{
+background-color: transparent;
+color: #6062c9;
+
+}
+
+.pricing-box:hover{
+  background-color: #6062c9;
+  
+}
+
+
+.pricing-box:hover h4,
+.pricing-box:hover p,
+.pricing-box:hover span,
+.pricing-box:hover span strong,
+.pricing-box:hover span strong,
+.pricing-box:hover li
+{
+ color: #fff;
+  
+}
+
+.pricing-box:hover .learnbtn button{
+  background-color: #FFF;
+  color: #7678ED;
+}
+.pricing-box:hover .plan-checkbox{
+  background-color: #fff;
+}
+.pricing-box:hover .plan-checkbox i{
+  color: #7678ED;
+}
+.pricing-box{
+  padding: 24px;
+  box-shadow: 10px 32px 72px rgba(15, 13, 35, 0.1);
+  background: #fff;
+  transition: all linear .3s;
+}
+
+.pricing-box h4{
+  color: #13132C;
+  font-family: "Commissioner", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  margin-bottom: 24px;
+}
+
+.pricing-box p{
+  color: #898998;
+  font-family: "Commissioner", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 62px;
+  margin-bottom: 20px;
+}
+
+.pricing-box .price strong{
+  color:#13132C;
+  font-family: "Commissioner", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.pricing-box .price{
+  color: #898998;
+  font-family: "Commissioner", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.pricing-list-service{
+  margin-top: 34px;
+}
+
+.pricing-box li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  column-gap: 12px;
+  
+}
+
+.pricing-box li .plan-checkbox{
+  background-color: #7678ED;
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 10px;
+
+}
+.pricing-box li{
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.pricing-box li span{
+ color: #13132C;
+ font-family: "Commissioner", serif;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: normal;
+
+}
+
+.learnbtn button{
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      color: #6062c9;
+      font-family: "Commissioner", serif;
+      font-weight: 500;
+      font-size: 16px;
+      transition: all linear .4s;
+      border: 1px solid #6062c9;
+      margin-top: 35px;
+      margin-top: 37px;
+      padding: 18px 0;
+      margin-top: 0px;
+      
+  }
+  
+  .learnbtn button:hover{
+  background-color: #6062c9;
+  color: #fff;
+  
+  }
+
+ /* paln end*/
+
+
+ /* testimonial start*/
+
+ #testimonial{
+  padding-top: 114px;
+  background-color: #fff;
+ }
+.testimonial-header h4{
+  font-family: "Commissioner", serif;
+  color: #13132C;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  text-transform: capitalize;
+}
+
+.testimonial-btn button{
+  
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: #6062c9;
+    font-family: "Commissioner", serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all linear .4s;
+    border: 1px solid #6062c9;
+    margin-top: 35px;
+    margin-top: 37px;
+    padding: 18px 0;
+    margin-top: 0px;
+    
+}
+
+.testimonial-btn button:hover{
+background-color: #6062c9;
+color: #fff;
+
+}
+.testimonial-parent{
+  margin-top: 56px;
+}
+.testimonial-items{
+  padding: 24px;
+  border: 1px solid #dddddd;
+}
+
+.quotation{
+  position: relative;
+}
+
+.quotation::after{
+  content: "";
+  position: absolute;
+  top: 60%;
+  width: 298px;
+  height: 2px;
+  left: 32px;
+  background-color: #dddddd;
+
+}
+
+.testimonial-items p{
+  font-family: "Commissioner", serif;
+  color: #62636C;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 26px;
+  padding-right: 13px;
+
+}
+.reviewer{
+  column-gap: 16px;
+  margin-top: 34px;
+}
+.reviewer .r-image{
+  width: 56px;
+  height: 56px;
+  background-color: #dddddd;
+  border-radius: 50%;
+}
+
+.reviewer .r-details h6{
+  font-family: "Commissioner", serif;
+  color: #13132C;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.reviewer .r-details span{
+  font-family: "Commissioner", serif;
+  color: #898998;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+  margin-top: 10px;
+}
+ /* testimonial end*/
+
+
+         /* footer start*/
+footer{
+  padding-top: 90px;
+  background-color: #13132C;
+  margin-top: 140px;
+}
+
+.footer-left p{
+  color: rgba(255, 255, 255, 0.72);
+  font-family: "Commissioner", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 30px;
+  padding-right: 50px;;
+}
+
+.footer-lists h5{
+  color: #fff;
+  font-family: "Commissioner", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.footer-lists ul{
+  margin-top: 23px;
+}
+.footer-lists ul li{
+  color: rgba(255, 255, 255, 0.72);
+  font-family: "Commissioner", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.footer-lists ul li:last-child{
+  margin-bottom: 0;
+}
+.lits-items-with-data{
+  column-gap: 8px;
+}
+.lits-items-with-data i{
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+
+}
+
+.coppyright{
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  margin-top: 48px;
+  text-align: center;
+ 
+  
+}
+.coppyright span{
+  display: inline-block;
+  margin-top: 24px;
+  color: #fff;
+  font-family: "Commissioner", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  padding-bottom: 32px;
+}
+
+        /* footer end*/
+
+     
